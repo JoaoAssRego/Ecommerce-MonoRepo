@@ -1,0 +1,80 @@
+node_modules\n.env\ndist\n.vercel
+# node environments
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# environment examples (but not tracked secrets)
+!*.env.example
+
+# production builds
+dist/
+build/
+
+# OS system files
+.DS_Store
+Thumbs.db
+
+# IDE and editor folders
+.vscode/
+.idea/
+*.sw?
+
+# Logs
+logs/
+*.log
+
+# npm
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# local data
+*.local
+*.sublime-workspace
+*.sublime-project
+
+# lockfiles (if not committed)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# misc
+coverage/
+*.pid
+*.seed
+*.tgz
+
+# Vercel output
+.vercel/
+.vercel_build_output/
+
+# output folders
+out/
+.next/
+# temp files
+tmp/
+temp/
+
+# Mac OS files
+.AppleDouble
+
+# SFTP config
+.ssh/
+ftpconfig.json
+
+# Firebase / etc
+.firebase/
+
+# Ignore client/server runtime envs
+client/.env
+client/.env.*
+server/.env
+server/.env.*
+
+# Ignore SQLite/db files
+*.sqlite3
+*.db
