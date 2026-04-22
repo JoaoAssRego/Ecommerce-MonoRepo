@@ -27,7 +27,7 @@ const userSchema = new mongoose.Schema(
             default: [],
             validate: [arr => arr.length <= 3, 'Não é possível abrir mais de 3 sessões.']
         },
-        passwordChangedAt: {type: Date}
+        passwordChangedAt: Date
     },
     {timestamps: true}
 )

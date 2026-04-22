@@ -74,6 +74,7 @@ client/.env
 client/.env.*
 server/.env
 server/.env.*
+server/.env.example
 
 # Ignore SQLite/db files
 *.sqlite3
