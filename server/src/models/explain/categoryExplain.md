@@ -111,4 +111,3 @@ export const Category = mongoose.model('Category',categorySchema);
 Compila o schema no modelo `Category`, pronto para uso em controladores e serviços para criar, buscar, atualizar e deletar categorias.
 
 ---
-*/
